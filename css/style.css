@@ -1,2 +1,133 @@
 @import url(./reset.css);
 @import url(./fonts.css);
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'MyriadPro-Regular';
+    color: #000;
+}
+
+.container {
+    max-width: calc(100vw - 200px);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    height: 100vh;
+    position: relative;
+}
+
+.header-inner {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header-title span,
+.header-text span,
+.header-content-text h2 span {
+    color: #ffc600;
+}
+
+.header-block-title {
+    padding: 115px 0 0 35px;
+    color: #fff;
+}
+
+.header-title {
+    font-family: 'MyriadPro-Bold';
+    font-size: 200px;
+    line-height: 0.9;
+}
+
+.header-text {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.header-content {
+    width: 100%;
+    height: 61%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header-content-inner {
+    height: 100%;
+    position: relative;
+}
+
+.header-content-text {
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    z-index: 1;
+    color: #ffc600;
+}
+
+.header-content-text h2 {
+    font-family: 'MyriadPro-Bold';
+    font-size: 60px;
+    line-height: 0.9;
+    color: #fff;
+}
+
+.header-nav-menu {
+    margin-top: 55px;
+    display: flex;
+    column-gap: 35px;
+    font-size: 18px;
+}
+
+.header-nav-menu li:hover {
+    color: #fff;
+}
+
+.header-nav-menu li:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ffc600;
+}
+
+.header-content-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header-content-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center 0;
+}
+
+.header-main-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.header-main-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: 0 0;
+}
