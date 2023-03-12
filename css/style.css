@@ -8,6 +8,7 @@ html {
 body {
     font-family: 'MyriadPro-Regular';
     color: #000;
+    background-color: #000;
 }
 
 .container {
@@ -32,7 +33,8 @@ body {
 
 .header-title span,
 .header-text span,
-.header-content-text h2 span {
+.header-content-text h2 span,
+.about-company-title span:last-child {
     color: #ffc600;
 }
 
@@ -130,4 +132,95 @@ body {
     display: block;
     object-fit: cover;
     object-position: 0 0;
+}
+
+/* Section About Company */
+
+.section-about-company-inner {
+    background-color: #fff;
+}
+
+.about-company {
+    width: 100%;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 160px;
+}
+
+.about-company-title {
+    padding-left: 65px;
+    font-family: 'MyriadPro-Semibold';
+    font-size: 80px;
+    line-height: 0.8;
+}
+
+.about-company-title span:first-child {
+    font-family: 'MyriadPro-Regular';
+    font-size: 30px;
+    color: #717171;
+}
+
+.about-company-title span:first-child span {
+    font-size: 50px;
+}
+
+.about-company-title::after {
+    content: '';
+    display: block;
+    width: 35%;
+    height: 2px;
+    float: right;
+    background-color: #c5c5c5;
+}
+
+.about-company-desc {
+    padding-left: 20px;
+    border-left: 2px solid #c5c5c5;
+    text-align: justify;
+}
+
+.about-company-desc h3 {
+    margin-bottom: 20px;
+    font-family: 'MyriadPro-It';
+    color: #000;
+}
+
+.about-company-desc p {
+    font-size: 14px;
+    color: #595959;
+}
+
+.company-tasks {
+    max-width: 73%;
+    margin: 0 auto;
+    padding: 70px 0 110px 0;
+    display: flex;
+    column-gap: 90px;
+    align-items: center;
+}
+
+.company-task {
+    text-align: center;
+}
+
+.company-task img {
+    margin-bottom: 20px;
+}
+
+.company-task h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.company-task p {
+    font-size: 10px;
+    font-family: 'MyriadPro-It';
+    color: #000;
+}
+
+.company-task p:last-child {
+    margin-top: 15px;
 }
