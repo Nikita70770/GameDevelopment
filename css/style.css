@@ -37,15 +37,25 @@ body {
 .header-content-text h2 span,
 .about-company-title span:last-child,
 .featured-projects-title span:first-child,
-.strategic-process-title span:first-child {
+.strategic-process-title span:first-child,
+.services-provided-title span:first-child {
     color: #ffc600;
 }
 
-/* .strategic-process-inner,
-.about-company-inner,
-.section-featured-projects-inner {
-    background-color: #fff;
-} */
+.about-company-title span:first-child span,
+.featured-projects-title span,
+.strategic-process-title span,
+.section-list-process h4 span,
+.services-provided-title span {
+    font-size: 50px;
+}
+
+.strategic-process-title,
+.section-list-process h4,
+.services-provided-title {
+    font-family: 'MyriadPro-Semibold';
+    font-size: 30px;
+}
 
 .header-block-title {
     padding: 115px 0 0 35px;
@@ -166,10 +176,6 @@ body {
     color: #717171;
 }
 
-.about-company-title span:first-child span {
-    font-size: 50px;
-}
-
 .about-company-title::after {
     content: '';
     display: block;
@@ -247,11 +253,6 @@ body {
     font-size: 30px;
 }
 
-.featured-projects-title span:first-child,
-.featured-projects-title span:last-child {
-    font-size: 50px;
-}
-
 .featured-projects-title::after {
     content: '';
     display: block;
@@ -298,12 +299,6 @@ body {
 
 .strategic-process-title {
     display: inline-block;
-    font-size: 30px;
-}
-
-.strategic-process-title span:first-child,
-.strategic-process-title span:last-child {
-    font-size: 50px;
 }
 
 .strategic-process-title::after {
@@ -352,15 +347,6 @@ body {
     padding: 30px 0 45px 35px;
 }
 
-.section-list-process h4 {
-    font-family: 'MyriadPro-Semibold';
-    font-size: 30px;
-}
-
-.section-list-process h4 span {
-    font-size: 50px;
-}
-
 .section-list-process h5 {
     margin-top: 40px;
     font-family: 'MyriadPro-It';
@@ -370,4 +356,66 @@ body {
     margin-top: 20px;
     font-size: 14px;
     color: #595959;
+}
+
+/* Section Services Provided */
+
+.services-provided-inner {
+    position: relative;
+    color: #fff;
+}
+
+.services-provided-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.services-provided-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.services-provided-content {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.services-provided-title {
+    margin: 40px 0 0 50px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.services-provided-title::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1.5px;
+    float: right;
+    background-color: #c5c5c5;
+}
+
+.services-provided-content-list {
+    max-width: 45%;
+    float: right;
+    margin: 130px 180px 55px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 90px 75px;
+}
+
+.section-service h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.section-service p {
+    font-size: 11px;
 }
