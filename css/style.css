@@ -34,7 +34,8 @@ body {
 .header-title span,
 .header-text span,
 .header-content-text h2 span,
-.about-company-title span:last-child {
+.about-company-title span:last-child,
+.featured-projects-title span {
     color: #ffc600;
 }
 
@@ -169,7 +170,7 @@ body {
     content: '';
     display: block;
     width: 35%;
-    height: 2px;
+    height: 1.5px;
     float: right;
     background-color: #c5c5c5;
 }
@@ -223,4 +224,71 @@ body {
 
 .company-task p:last-child {
     margin-top: 15px;
+}
+
+/* Section Featured Projects */
+
+.section-featured-projects-inner {
+    background-color: #fff;
+}
+
+.featured-projects-content {
+    padding-left: 80px;
+    font-family: 'MyriadPro-Semibold';
+}
+
+.featured-projects-content > * {
+    margin-bottom: 20px;
+}
+
+.featured-projects-title {
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.featured-projects-title::after {
+    content: '';
+    display: block;
+    width: 54%;
+    height: 1.5px;
+    margin-top: 3px;
+    float: right;
+    background-color: #c5c5c5;
+}
+
+.featured-projects-nav {
+    display: flex;
+    column-gap: 1.25rem;
+    /* justify-content: space-between; */
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.featured-projects-nav li:hover::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin: -1px auto 0;
+    background-color: #ffc600;
+}
+
+.company-works-list {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2px;
+}
+
+.company-works-list li img {
+    display: block;
+    width: 100%;
+    height: 270px;
+    max-height: 100%;
+    object-fit: cover;
+    /* object-position: center 0; */
+    /* min-height: 270px;
+    height: 100%;
+    object-fit: cover; */
 }
