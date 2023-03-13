@@ -19,6 +19,42 @@ body {
     background-color: #fff;
 }
 
+.header-title span,
+.header-text span,
+.header-content-text h2 span,
+.about-company-title span:last-child,
+.featured-projects-title span:first-child,
+.strategic-process-title span:first-child,
+.services-provided-title span:first-child,
+.our-team-title span:first-child {
+    color: #ffc600;
+}
+
+.about-company-title span:first-child span,
+.featured-projects-title span,
+.strategic-process-title span,
+.section-list-process h4 span,
+.services-provided-title span,
+.our-team-title span {
+    font-size: 50px;
+}
+
+.strategic-process-title,
+.section-list-process h4,
+.services-provided-title,
+.our-team-title {
+    font-family: 'MyriadPro-Semibold';
+    font-size: 30px;
+}
+
+.about-company-desc p,
+.strategic-process-desc p,
+.section-list-process p,
+.our-team-desc p {
+    font-size: 14px;
+    color: #595959;
+}
+
 /* Header */
 
 .header {
@@ -30,31 +66,6 @@ body {
     height: 100%;
     position: relative;
     z-index: 1;
-}
-
-.header-title span,
-.header-text span,
-.header-content-text h2 span,
-.about-company-title span:last-child,
-.featured-projects-title span:first-child,
-.strategic-process-title span:first-child,
-.services-provided-title span:first-child {
-    color: #ffc600;
-}
-
-.about-company-title span:first-child span,
-.featured-projects-title span,
-.strategic-process-title span,
-.section-list-process h4 span,
-.services-provided-title span {
-    font-size: 50px;
-}
-
-.strategic-process-title,
-.section-list-process h4,
-.services-provided-title {
-    font-family: 'MyriadPro-Semibold';
-    font-size: 30px;
 }
 
 .header-block-title {
@@ -197,11 +208,6 @@ body {
     color: #000;
 }
 
-.about-company-desc p {
-    font-size: 14px;
-    color: #595959;
-}
-
 .company-tasks {
     max-width: 73%;
     margin: 0 auto;
@@ -322,8 +328,6 @@ body {
 
 .strategic-process-desc p {
     margin-top: 20px;
-    font-size: 14px;
-    color: #595959;
 }
 
 .strategic-process-content {
@@ -354,8 +358,6 @@ body {
 
 .section-list-process p {
     margin-top: 20px;
-    font-size: 14px;
-    color: #595959;
 }
 
 /* Section Services Provided */
@@ -381,7 +383,7 @@ body {
 }
 
 .services-provided-content {
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     z-index: 1;
 }
@@ -418,4 +420,72 @@ body {
 
 .section-service p {
     font-size: 11px;
+}
+
+/* Section Our Team */
+
+.our-team-content {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 90px 0 140px 0;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 140px; */
+}
+
+.our-team-title {
+    margin-top: 15px;
+}
+
+.our-team-title::after {
+    content: '';
+    width: 55%;
+    height: 1.5px;
+    display: block;
+    float: right;
+    background-color: #c5c5c5;
+}
+
+.our-team-desc {
+    max-width: 72%;
+}
+
+.our-team-desc-content {
+    max-width: 80%;
+}
+
+.our-team-desc h3 {
+    margin-bottom: 20px;
+    font-family: 'MyriadPro-It';
+}
+
+.our-team-desc p {
+    margin-bottom: 35px;
+}
+
+.info-team-employees {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    column-gap: 20px;
+}
+
+.info-employee {
+    text-align: center;
+}
+
+.image-employee img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.info-employee h4 {
+    margin-top: 20px;
+    font-family: 'MyriadPro-Semibold';
+}
+
+.info-employee p {
+    font-family: 'MyriadPro-It';
 }
