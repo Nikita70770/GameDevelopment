@@ -16,6 +16,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 /* Header */
@@ -35,9 +36,16 @@ body {
 .header-text span,
 .header-content-text h2 span,
 .about-company-title span:last-child,
-.featured-projects-title span {
+.featured-projects-title span:first-child,
+.strategic-process-title span:first-child {
     color: #ffc600;
 }
+
+/* .strategic-process-inner,
+.about-company-inner,
+.section-featured-projects-inner {
+    background-color: #fff;
+} */
 
 .header-block-title {
     padding: 115px 0 0 35px;
@@ -137,10 +145,6 @@ body {
 
 /* Section About Company */
 
-.section-about-company-inner {
-    background-color: #fff;
-}
-
 .about-company {
     width: 100%;
     padding-top: 35px;
@@ -228,10 +232,6 @@ body {
 
 /* Section Featured Projects */
 
-.section-featured-projects-inner {
-    background-color: #fff;
-}
-
 .featured-projects-content {
     padding-left: 80px;
     font-family: 'MyriadPro-Semibold';
@@ -247,6 +247,11 @@ body {
     font-size: 30px;
 }
 
+.featured-projects-title span:first-child,
+.featured-projects-title span:last-child {
+    font-size: 50px;
+}
+
 .featured-projects-title::after {
     content: '';
     display: block;
@@ -260,7 +265,6 @@ body {
 .featured-projects-nav {
     display: flex;
     column-gap: 1.25rem;
-    /* justify-content: space-between; */
     font-size: 10px;
     text-transform: uppercase;
 }
@@ -275,6 +279,7 @@ body {
 }
 
 .company-works-list {
+    padding-bottom: 60px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -287,8 +292,82 @@ body {
     height: 270px;
     max-height: 100%;
     object-fit: cover;
-    /* object-position: center 0; */
-    /* min-height: 270px;
+}
+
+/* Section Strategic Process */
+
+.strategic-process-title {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.strategic-process-title span:first-child,
+.strategic-process-title span:last-child {
+    font-size: 50px;
+}
+
+.strategic-process-title::after {
+    content: '';
+    display: block;
+    width: 53%;
+    height: 1.5px;
+    float: right;
+    background-color: #c5c5c5;
+}
+
+.strategic-process-desc {
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+.strategic-process-desc h3 {
+    margin-top: 30px;
+    font-family: 'MyriadPro-It';
+}
+
+.strategic-process-desc p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.strategic-process-content {
+    max-width: 81%;
+    margin: 0 auto;
+    padding: 40px 0 65px 0;
+}
+
+.strategic-process-list li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.strategic-process-image img {
+    max-width: 100%;
     height: 100%;
-    object-fit: cover; */
+    object-fit: cover;
+}
+
+.section-list-process {
+    padding: 30px 0 45px 35px;
+}
+
+.section-list-process h4 {
+    font-family: 'MyriadPro-Semibold';
+    font-size: 30px;
+}
+
+.section-list-process h4 span {
+    font-size: 50px;
+}
+
+.section-list-process h5 {
+    margin-top: 40px;
+    font-family: 'MyriadPro-It';
+}
+
+.section-list-process p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #595959;
 }
