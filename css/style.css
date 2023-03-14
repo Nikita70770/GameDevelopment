@@ -26,7 +26,8 @@ body {
 .featured-projects-title span:first-child,
 .strategic-process-title span:first-child,
 .services-provided-title span:first-child,
-.our-team-title span:first-child {
+.our-team-title span:first-child,
+.testimonials-title span {
     color: #ffc600;
 }
 
@@ -35,14 +36,16 @@ body {
 .strategic-process-title span,
 .section-list-process h4 span,
 .services-provided-title span,
-.our-team-title span {
+.our-team-title span,
+.testimonials-title span {
     font-size: 50px;
 }
 
 .strategic-process-title,
 .section-list-process h4,
 .services-provided-title,
-.our-team-title {
+.our-team-title,
+.testimonials-title {
     font-family: 'MyriadPro-Semibold';
     font-size: 30px;
 }
@@ -435,6 +438,7 @@ body {
 
 .our-team-title {
     margin-top: 15px;
+    line-height: 1;
 }
 
 .our-team-title::after {
@@ -487,5 +491,70 @@ body {
 }
 
 .info-employee p {
+    font-family: 'MyriadPro-It';
+}
+
+/* Section Testimonials */
+
+.testimonials-inner {
+    color: #fff;
+    background-color: #161616;
+}
+
+.testimonials-title {
+    padding: 55px 0 0 50px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.testimonials-title::after {
+    content: '';
+    display: block;
+    width: 48%;
+    height: 1.5px;
+    float: right;
+    background-color: #c5c5c5;
+}
+
+.testimonials-content {
+    max-width: 75%;
+    padding: 0 0 135px 95px;
+    /* margin-left: 90px; */
+    display: flex;
+    column-gap: 80px;
+}
+
+.testimonials-text {
+    max-width: 75%;
+}
+
+.testimonials-text h3 {
+    margin: 75px 0 20px 0;
+    font-family: 'MyriadPro-It';
+}
+
+.testimonials-text p {
+    font-size: 14px;
+}
+
+.testimonials-employee-info {
+    max-width: 15%;
+    text-align: center;
+}
+
+.testimonials-employee-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1.5px solid #ffa800;
+    border-radius: 50%;
+}
+
+.testimonials-employee-info h4 {
+    margin-top: 20px;
+    font-family: 'MyriadPro-Semibold';
+}
+
+.testimonials-employee-info p {
     font-family: 'MyriadPro-It';
 }
