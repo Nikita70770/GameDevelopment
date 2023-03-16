@@ -29,7 +29,9 @@ body {
 .our-team-title span:first-child,
 .testimonials-title span,
 .blogs-title span,
-.contact-us-title span:first-child {
+.contact-us-title span:first-child,
+.footer-left-column-title span,
+.footer-right-column-title span {
     color: #ffc600;
 }
 
@@ -439,7 +441,6 @@ body {
     padding: 90px 0 140px 0;
     display: flex;
     justify-content: space-between;
-    /* column-gap: 140px; */
 }
 
 .our-team-title {
@@ -475,8 +476,6 @@ body {
 
 .info-team-employees {
     display: flex;
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr); */
     column-gap: 20px;
 }
 
@@ -525,7 +524,6 @@ body {
 .testimonials-content {
     max-width: 75%;
     padding: 0 0 135px 95px;
-    /* margin-left: 90px; */
     display: flex;
     column-gap: 80px;
 }
@@ -656,7 +654,8 @@ body {
 }
 
 .contact-us-content {
-    max-width: 58%;
+    max-width: 59%;
+    width: 100%;
     background-color: #2046b3;
 }
 
@@ -764,4 +763,95 @@ body {
     padding: 0 0 35px 20px;
     display: flex;
     column-gap: 5px;
+}
+
+/* Footer */
+
+.footer-inner {
+    padding: 70px 0 40px 0;
+    display: flex;
+    color: #fff;
+}
+
+.footer-left-column {
+    max-width: 30%;
+    width: 100%;
+    background-color: #161616;
+}
+
+.footer-left-column-inner {
+    padding: 120px 0 0 25px;
+}
+
+.footer-left-column-title {
+    font-family: 'MyriadPro-Bold';
+    font-size: 60px;
+}
+
+.footer-nav-menu {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.footer-nav-menu-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    font-family: 'MyriadPro-Semibold';
+    text-transform: uppercase;
+}
+
+.footer-nav-menu-list::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    margin: 25px 0 10px 0;
+    background-color: #ffc600;
+}
+
+.footer-nav-menu-list li:hover {
+    color: #ffc600;
+}
+
+.footer-messengers {
+    padding-bottom: 45px;
+    display: flex;
+    column-gap: 5px;
+}
+
+.footer-right-column {
+    max-width: 71%;
+    width: 100%;
+    position: relative;
+}
+
+.footer-right-column-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-right-column-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center 0;
+}
+
+.footer-right-column-text {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-right-column-title {
+    position: absolute;
+    bottom: 145px;
+    left: 25px;
+    font-family: 'MyriadPro-Bold';
+    font-size: 100px;
+    line-height: 0.8;
 }
