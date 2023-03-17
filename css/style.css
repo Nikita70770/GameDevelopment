@@ -176,7 +176,7 @@ body {
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: 0 0;
+    object-position: center 0;
 }
 
 /* Section About Company */
