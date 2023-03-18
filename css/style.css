@@ -198,7 +198,7 @@ body {
 }
 
 .about-company-title {
-    padding-left: 65px;
+    padding-left: 135px;
     font-family: 'MyriadPro-Semibold';
     /* font-size: 80px; */
     font-size: calc((100vw - 20rem) / (120 - 20) * (5 - 2.1875) + 2.1875rem);
@@ -300,8 +300,8 @@ body {
 .featured-projects-nav {
     display: flex;
     column-gap: 1.25rem;
-    /* font-size: 10px; */
-    font-size: calc((100vw - 20rem) / (120 - 20) * (0.625 - 0.375) + 0.375rem);
+    /* font-size: 14px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (0.875 - 0.5) + 0.5rem);
     text-transform: uppercase;
 }
 
