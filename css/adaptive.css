@@ -1,4 +1,6 @@
 @media screen and (max-width: 1400px) {
+    /* Header */
+
     .header-block-title {
         padding-top: 50px;
     }
@@ -6,6 +8,8 @@
     .header-nav-menu {
         margin-top: 45px;
     }
+
+    /* Section About Company */
 }
 
 @media screen and (max-width: 1200px) {
@@ -13,9 +17,7 @@
         max-width: calc(100vw - 100px);
     }
 
-    .header-content {
-        height: 65%;
-    }
+    /* Section About Company */
 }
 
 @media screen and (max-width: 1000px) {
@@ -25,6 +27,8 @@
     .container {
         max-width: calc(100vw - 50px);
     }
+
+    /* Header */
 
     .header-block-title {
         padding: 25px 0 0 25px;
@@ -42,12 +46,16 @@
     .header-text {
         padding-left: 5px;
     }
+
+    /* Section About Company */
 }
 
 @media screen and (max-width: 480px) {
     .container {
-        max-width: calc(100vw - 25px);
+        max-width: 100%;
     }
+
+    /* Header */
 
     .header-block-title {
         padding-left: 20px;
@@ -58,7 +66,7 @@
     }
 
     .header-content {
-        height: 75%;
+        height: 80%;
     }
 
     .header-content-text {
@@ -70,6 +78,12 @@
         margin-top: 25px;
         column-gap: 20px;
     }
+
+    /* Section About Company */
+
+    .about-company {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -77,15 +91,15 @@
         max-width: 100%;
     }
 
+    /* Header */
+
     .header-block-title {
         padding: 15px 0 0 25px;
-    }
-
-    .header-content {
-        height: 80%;
     }
 
     .header-content-text {
         left: 25px;
     }
+
+    /* Section About Company */
 }
