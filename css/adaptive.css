@@ -9,8 +9,6 @@
         margin-top: 45px;
     }
 
-    /* Section About Company */
-
     /* Section Featured Projects */
 
     .featured-projects-content > * {
@@ -38,6 +36,8 @@
     .featured-projects-content > * {
         margin-bottom: 10px;
     }
+
+    /* Section Strategic Process */
 }
 
 @media screen and (max-width: 1000px) {
@@ -65,6 +65,20 @@
 
     .featured-projects-content {
         padding-left: 60px;
+    }
+
+    /* Section Strategic Process */
+
+    .strategic-process-desc h3 {
+        margin-top: 15px;
+    }
+
+    .strategic-process-desc p {
+        margin-top: 10px;
+    }
+
+    .strategic-process-content {
+        padding: 30px 0 55px 0;
     }
 }
 
@@ -124,7 +138,7 @@
     }
 
     .company-works-list {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
     }
@@ -196,6 +210,33 @@
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Section Strategic Process */
+
+    .strategic-process-content {
+        padding: 10px 0 45px 0;
+    }
+
+    .strategic-process-list li {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .strategic-process-list li:first-child .strategic-process-image,
+    .strategic-process-list li:last-child .strategic-process-image {
+        order: 1;
+    }
+
+    .section-list-process {
+        padding: 0 15px 25px 15px;
+    }
+
+    .section-list-process h4 {
+        margin-top: 40px;
+    }
+
+    .section-list-process h5 {
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -223,5 +264,19 @@
 
     .featured-projects-content {
         padding-left: 10px;
+    }
+
+    /* Section Strategic Process */
+
+    .section-list-process {
+        padding: 0 0 15px 0;
+    }
+
+    .section-list-process h4 {
+        margin-top: 35px;
+    }
+
+    .section-list-process h5 {
+        margin-top: 20px;
     }
 }
