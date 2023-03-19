@@ -42,6 +42,16 @@
     /* Section Strategic Process */
 
     /* Section Services Provided */
+
+    .services-provided-title {
+        margin: 20px 0 0 40px;
+    }
+
+    .services-provided-content-list {
+        /* max-width: 45%; */
+        margin: 125px 130px 55px 0;
+        grid-gap: 80px 70px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -86,6 +96,11 @@
     }
 
     /* Section Services Provided */
+
+    .services-provided-content-list {
+        margin: 110px 100px 50px 0;
+        grid-gap: 70px 65px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -150,6 +165,18 @@
     }
 
     /* Section Services Provided */
+
+    .services-provided-title {
+        margin: 20px 0 0 45px;
+    }
+
+    .services-provided-content-list {
+        margin: 100px 65px 45px 0;
+    }
+
+    .section-service h3 {
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -247,6 +274,21 @@
     }
 
     /* Section Services Provided */
+
+    .services-provided-title {
+        margin-left: 25px;
+    }
+
+    .services-provided-content-list {
+        max-width: 75%;
+        margin: 35px 0 45px 30px;
+        float: none;
+        grid-gap: 45px 60px;
+    }
+
+    .section-service h3 {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -291,4 +333,14 @@
     }
 
     /* Section Services Provided */
+
+    .services-provided-title {
+        margin-left: 20px;
+    }
+
+    .services-provided-content-list {
+        max-width: 80%;
+        margin: 30px 0 35px 22px;
+        grid-gap: 35px 50px;
+    }
 }

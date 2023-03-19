@@ -30,7 +30,6 @@ body {
 .about-company-title span:last-child,
 .featured-projects-title span:first-child,
 .strategic-process-title span:first-child,
-.services-provided-title span:first-child,
 .our-team-title span:first-child,
 .testimonials-title span,
 .blogs-title span,
@@ -418,9 +417,13 @@ body {
 }
 
 .services-provided-title {
-    margin: 40px 0 0 50px;
+    margin: 25px 0 0 60px;
     display: inline-block;
     line-height: 1;
+}
+
+.services-provided-title span:first-child {
+    color: #f3a406;
 }
 
 .services-provided-title::after {
@@ -435,7 +438,7 @@ body {
 .services-provided-content-list {
     max-width: 45%;
     float: right;
-    margin: 130px 180px 55px 0;
+    margin: 130px 150px 55px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -450,7 +453,7 @@ body {
 
 .section-service p {
     /* font-size: 11px; */
-    font-size: calc((100vw - 20rem) / (120 - 20) * (0.6875 - 0.375) + 0.375rem);
+    font-size: calc((100vw - 20rem) / (120 - 20) * (0.6875 - 0.3125) + 0.3125rem);
 }
 
 /* Section Our Team */

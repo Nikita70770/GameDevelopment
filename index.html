@@ -274,9 +274,13 @@
             <section class="section-services-provided">
                 <div class="container">
                     <div class="services-provided-inner">
-                        <div class="services-provided-image">
-                            <img src="img/services_provided/services_provided3.jpg" alt="Services Image" />
-                        </div>
+                        <picture class="services-provided-image">
+                            <source
+                                srcset="img/services_provided/services_provided1024x768.jpg"
+                                media="(max-width: 768px)"
+                            />
+                            <img src="img/services_provided/services_provided.jpg" alt="Services Image" />
+                        </picture>
                         <div class="services-provided-content">
                             <h2 class="services-provided-title"><span>S</span>ervices <span>P</span>rovided</h2>
                             <ul class="services-provided-content-list">
