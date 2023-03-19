@@ -24,19 +24,16 @@ body {
     display: none !important;
 }
 
-.header-title span,
-.header-text span,
-.header-content-text h2 span,
-.about-company-title span:last-child,
-.featured-projects-title span:first-child,
-.strategic-process-title span:first-child,
-.our-team-title span:first-child,
-.testimonials-title span,
-.blogs-title span,
-.contact-us-title span:first-child,
-.footer-left-column-title span,
-.footer-right-column-title span {
-    color: #ffc600;
+.about-company-title,
+.featured-projects-title,
+.strategic-process-title,
+.services-provided-title,
+.our-team-title,
+.testimonials-title,
+.blogs-title,
+.contact-us-title,
+.footer-nav-menu {
+    display: inline-block;
 }
 
 .about-company-title span:first-child span,
@@ -63,6 +60,21 @@ body {
     font-family: 'MyriadPro-Semibold';
     /* font-size: 30px; */
     font-size: calc((100vw - 20rem) / (120 - 20) * (1.875 - 0.9375) + 0.9375rem);
+}
+
+.header-title span,
+.header-text span,
+.header-content-text h2 span,
+.about-company-title span:last-child,
+.featured-projects-title span:first-child,
+.strategic-process-title span:first-child,
+.our-team-title span:first-child,
+.testimonials-title span,
+.blogs-title span,
+.contact-us-title span:first-child,
+.footer-left-column-title span,
+.footer-right-column-title span {
+    color: #ffc600;
 }
 
 .about-company-desc p,
@@ -198,6 +210,7 @@ body {
 
 .about-company-title {
     padding-left: 135px;
+    /* display: inline-block; */
     font-family: 'MyriadPro-Semibold';
     /* font-size: 80px; */
     font-size: calc((100vw - 20rem) / (120 - 20) * (5 - 2.1875) + 2.1875rem);
@@ -281,7 +294,7 @@ body {
 }
 
 .featured-projects-title {
-    display: inline-block;
+    /* display: inline-block; */
     /* font-size: 30px; */
     line-height: 1;
 }
@@ -331,9 +344,9 @@ body {
 
 /* Section Strategic Process */
 
-.strategic-process-title {
+/* .strategic-process-title {
     display: inline-block;
-}
+} */
 
 .strategic-process-title::after {
     content: '';
@@ -418,7 +431,7 @@ body {
 
 .services-provided-title {
     margin: 25px 0 0 60px;
-    display: inline-block;
+    /* display: inline-block; */
     line-height: 1;
 }
 
@@ -467,6 +480,7 @@ body {
 }
 
 .our-team-title {
+    /* display: inline-block; */
     margin-top: 15px;
     line-height: 1;
 }
@@ -531,7 +545,7 @@ body {
 
 .testimonials-title {
     padding: 55px 0 0 50px;
-    display: inline-block;
+    /* display: inline-block; */
     line-height: 1;
 }
 
@@ -603,7 +617,7 @@ body {
 
 .blogs-title {
     padding-top: 30px;
-    display: inline-block;
+    /* display: inline-block; */
     line-height: 1;
 }
 
@@ -693,7 +707,7 @@ body {
 }
 
 .contact-us-title {
-    display: inline-block;
+    /* display: inline-block; */
     line-height: 1;
 }
 
@@ -817,7 +831,7 @@ body {
 }
 
 .footer-nav-menu {
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 60px;
 }
 

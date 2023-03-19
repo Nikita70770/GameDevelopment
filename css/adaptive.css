@@ -16,6 +16,8 @@
     }
 
     /* Section Services Provided */
+
+    /* Section Our Team */
 }
 
 @media screen and (max-width: 1200px) {
@@ -51,6 +53,24 @@
         /* max-width: 45%; */
         margin: 125px 130px 55px 0;
         grid-gap: 80px 70px;
+    }
+
+    /* Section Our Team */
+
+    .our-team-desc-content {
+        max-width: 76%;
+    }
+
+    .our-team-content {
+        padding: 80px 0 100px 0;
+    }
+
+    .our-team-desc h3 {
+        margin-bottom: 15px;
+    }
+
+    .our-team-desc p {
+        margin-bottom: 30px;
     }
 }
 
@@ -101,6 +121,20 @@
         margin: 110px 100px 50px 0;
         grid-gap: 70px 65px;
     }
+
+    /* Section Our Team */
+
+    .our-team-content {
+        padding: 60px 0 70px 0;
+    }
+
+    .our-team-desc h3 {
+        margin-bottom: 10px;
+    }
+
+    .our-team-desc p {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -137,7 +171,6 @@
     }
 
     .about-company-title {
-        display: inline-block;
         padding-left: 0;
     }
 
@@ -176,6 +209,29 @@
 
     .section-service h3 {
         margin-bottom: 15px;
+    }
+
+    /* Section Our Team */
+
+    .our-team-content {
+        padding: 50px 0 65px 0;
+        display: block;
+    }
+
+    .our-team-title {
+        margin: 0 0 30px 0;
+    }
+
+    .our-team-desc {
+        max-width: 85%;
+    }
+
+    .our-team-desc-content {
+        max-width: 85%;
+    }
+
+    .info-employee h4 {
+        margin-top: 15px;
     }
 }
 
@@ -289,6 +345,24 @@
     .section-service h3 {
         margin-bottom: 10px;
     }
+
+    /* Section Our Team */
+
+    .our-team-title {
+        margin: 0 0 25px 0;
+    }
+
+    .our-team-desc {
+        max-width: 100%;
+    }
+
+    .our-team-desc-content {
+        max-width: 100%;
+    }
+
+    .info-employee h4 {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -342,5 +416,11 @@
         max-width: 80%;
         margin: 30px 0 35px 22px;
         grid-gap: 35px 50px;
+    }
+
+    /* Section Our Team */
+
+    .our-team-content {
+        padding: 30px 0 45px 0;
     }
 }
