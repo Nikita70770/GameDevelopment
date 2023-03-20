@@ -648,7 +648,8 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (1.125 - 0.75) + 0.75rem);
 }
 
 .blogs-nav-menu-list li:hover {
@@ -677,20 +678,23 @@ body {
 
 .posts-blog-list-item h3 {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: calc((100vw - 20rem) / (120 - 20) * (1.125 - 0.75) + 0.75rem);
+    /* font-size: 18px; */
     color: #ffc600;
 }
 
 .posts-blog-list-item h4 {
     margin-top: 20px;
     font-family: 'MyriadPro-Bold';
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (0.9375 - 0.5625) + 0.5625rem);
 }
 
 .posts-blog-list-item p {
     margin-top: 15px;
     font-family: 'MyriadPro-It';
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (0.75 - 0.5) + 0.5rem);
 }
 
 /* Section Contact Us */
