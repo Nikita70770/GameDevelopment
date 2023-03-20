@@ -843,7 +843,8 @@ body {
 
 .footer-left-column-title {
     font-family: 'MyriadPro-Bold';
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (3.75 - 1.5) + 1.5rem);
 }
 
 .footer-nav-menu {
@@ -906,11 +907,16 @@ body {
 }
 
 .footer-right-column-title {
+    max-width: 88%;
     position: absolute;
     bottom: 145px;
     left: 25px;
+}
+
+.footer-right-column-title h3 {
     font-family: 'MyriadPro-Bold';
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (6.25 - 3.125) + 3.125rem);
     line-height: 0.8;
 }
 

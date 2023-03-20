@@ -93,6 +93,8 @@
     }
 
     /* Section Contact Us */
+
+    /* Footer */
 }
 
 @media screen and (max-width: 1000px) {
@@ -203,6 +205,8 @@
     .contact-us-info::after {
         margin-top: 30px;
     }
+
+    /* Footer */
 }
 
 @media screen and (max-width: 768px) {
@@ -363,6 +367,8 @@
     .contact-us-messengers {
         padding: 0 0 35px 15px;
     }
+
+    /* Footer */
 }
 
 @media screen and (max-width: 480px) {
@@ -590,6 +596,8 @@
     .contact-us-messengers {
         padding-bottom: 25px;
     }
+
+    /* Footer */
 }
 
 @media screen and (max-width: 320px) {
@@ -711,4 +719,6 @@
         max-width: 85%;
         padding-top: 30px;
     }
+
+    /* Footer */
 }
