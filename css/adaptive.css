@@ -91,6 +91,8 @@
     .blogs-nav-menu-list {
         padding: 50px 0 0 65px;
     }
+
+    /* Section Contact Us */
 }
 
 @media screen and (max-width: 1000px) {
@@ -181,7 +183,6 @@
 
     .blogs-nav-menu-list {
         padding: 45px 0 0 55px;
-        /* row-gap: 30px; */
     }
 
     .posts-blog-list-item h4 {
@@ -190,6 +191,17 @@
 
     .posts-blog-list-item p {
         margin-top: 10px;
+    }
+
+    /* Section Contact Us */
+
+    .contact-us-content-inner {
+        max-width: 75%;
+        padding: 50px 0 0 65px;
+    }
+
+    .contact-us-info::after {
+        margin-top: 30px;
     }
 }
 
@@ -339,6 +351,17 @@
 
     .post-image {
         height: 20vw;
+    }
+
+    /* Section Contact Us */
+
+    .contact-us-content-inner {
+        max-width: 75%;
+        padding: 40px 0 0 25px;
+    }
+
+    .contact-us-messengers {
+        padding: 0 0 35px 15px;
     }
 }
 
@@ -530,6 +553,43 @@
     .posts-blog-list-item p {
         margin-top: 5px;
     }
+
+    /* Section Contact Us */
+
+    .contact-us-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-maps,
+    .contact-us-content {
+        max-width: 100%;
+    }
+
+    .contact-us-content-inner {
+        padding-top: 35px;
+    }
+
+    .contact-us-info-inner {
+        max-width: 85%;
+        margin-top: 55px;
+    }
+
+    .contact-us-maps {
+        height: 55vw;
+        order: 1;
+    }
+
+    .inp-your-name,
+    .inp-num-phone,
+    .inp-email,
+    .inp-your-message {
+        padding: 8px;
+    }
+
+    .contact-us-messengers {
+        padding-bottom: 25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -643,5 +703,12 @@
 
     .posts-blog-list-item h3 {
         margin-top: 5px;
+    }
+
+    /* Section Contact Us */
+
+    .contact-us-content-inner {
+        max-width: 85%;
+        padding-top: 30px;
     }
 }
