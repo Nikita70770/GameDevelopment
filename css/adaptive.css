@@ -95,6 +95,10 @@
     /* Section Contact Us */
 
     /* Footer */
+
+    .footer-left-column-inner {
+        padding-top: 95px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -207,6 +211,26 @@
     }
 
     /* Footer */
+
+    .footer-inner {
+        padding-top: 60px;
+    }
+
+    .footer-left-column-inner {
+        padding-top: 80px;
+    }
+
+    .footer-nav-menu {
+        margin-top: 50px;
+    }
+
+    .footer-messengers {
+        padding-bottom: 40px;
+    }
+
+    .footer-right-column-title {
+        bottom: 100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -369,6 +393,27 @@
     }
 
     /* Footer */
+
+    .footer-inner {
+        padding-top: 50px;
+    }
+
+    .footer-left-column-inner {
+        padding-top: 65px;
+    }
+
+    .footer-nav-menu {
+        margin-top: 45px;
+    }
+
+    .footer-nav-menu-list::after {
+        margin-top: 20px;
+    }
+
+    .footer-right-column-title {
+        bottom: 75px;
+        left: 20px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -488,6 +533,10 @@
         margin: 0 0 25px 0;
     }
 
+    .our-team-title::after {
+        height: 1px;
+    }
+
     .our-team-desc {
         max-width: 100%;
     }
@@ -505,6 +554,10 @@
     .testimonials-content {
         max-width: 90%;
         padding: 45px 0 90px 0;
+    }
+
+    .testimonials-title::after {
+        height: 1px;
     }
 
     .testimonials-content-desc {
@@ -537,6 +590,10 @@
 
     .blogs-title {
         padding-top: 5px;
+    }
+
+    .blogs-title::after {
+        height: 1px;
     }
 
     .blogs-nav-menu-list {
@@ -576,6 +633,10 @@
         padding-top: 35px;
     }
 
+    .contact-us-title::after {
+        height: 1px;
+    }
+
     .contact-us-info-inner {
         max-width: 85%;
         margin-top: 55px;
@@ -598,6 +659,32 @@
     }
 
     /* Footer */
+
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-left-column,
+    .footer-right-column {
+        max-width: 100%;
+    }
+
+    .footer-left-column {
+        order: 1;
+    }
+
+    .footer-left-column-inner {
+        padding-top: 40px;
+    }
+
+    .footer-right-column {
+        height: 55vw;
+    }
+
+    .footer-right-column-title {
+        max-width: 84%;
+        bottom: 35px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -721,4 +808,21 @@
     }
 
     /* Footer */
+
+    .footer-right-column-title {
+        max-width: 80%;
+        bottom: 25px;
+    }
+
+    .footer-nav-menu {
+        margin-top: 35px;
+    }
+
+    .footer-messengers {
+        padding-bottom: 25px;
+    }
+
+    .footer-left-column-inner {
+        padding: 35px 0 0 20px;
+    }
 }
