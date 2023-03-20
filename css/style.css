@@ -543,8 +543,15 @@ body {
     background-color: #161616;
 }
 
+.testimonials-content {
+    max-width: 90%;
+    /* max-width: 75%; */
+    margin: 0 auto;
+    padding: 55px 0 135px 0;
+    /* padding: 55px 0 135px 50px; */
+}
+
 .testimonials-title {
-    padding: 55px 0 0 50px;
     /* display: inline-block; */
     line-height: 1;
 }
@@ -558,24 +565,27 @@ body {
     background-color: #c5c5c5;
 }
 
-.testimonials-content {
-    max-width: 75%;
-    padding: 0 0 135px 95px;
+.testimonials-content-desc {
+    max-width: 95%;
+    /* padding-left: 40px; */
     display: flex;
-    column-gap: 80px;
+    /* column-gap: 85px; */
+    justify-content: space-around;
 }
 
 .testimonials-text {
-    max-width: 75%;
+    max-width: 70%;
 }
 
 .testimonials-text h3 {
     margin: 75px 0 20px 0;
+    font-size: calc((100vw - 20rem) / (120 - 20) * (1 - 0.5625) + 0.5625rem);
     font-family: 'MyriadPro-It';
 }
 
 .testimonials-text p {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: calc((100vw - 20rem) / (120 - 20) * (0.875 - 0.5) + 0.5rem);
 }
 
 .testimonials-employee-info {

@@ -18,6 +18,8 @@
     /* Section Services Provided */
 
     /* Section Our Team */
+
+    /* Section Testimonials */
 }
 
 @media screen and (max-width: 1200px) {
@@ -50,7 +52,6 @@
     }
 
     .services-provided-content-list {
-        /* max-width: 45%; */
         margin: 125px 130px 55px 0;
         grid-gap: 80px 70px;
     }
@@ -71,6 +72,16 @@
 
     .our-team-desc p {
         margin-bottom: 30px;
+    }
+
+    /* Section Testimonials */
+
+    .testimonials-content {
+        padding: 55px 0 120px 0;
+    }
+
+    .testimonials-text h3 {
+        margin-top: 65px;
     }
 }
 
@@ -134,6 +145,20 @@
 
     .our-team-desc p {
         margin-bottom: 20px;
+    }
+
+    /* Section Testimonials */
+
+    .testimonials-content {
+        padding: 55px 0 105px 0;
+    }
+
+    .testimonials-text {
+        max-width: 65%;
+    }
+
+    .testimonials-text h3 {
+        margin: 60px 0 15px 0;
     }
 }
 
@@ -232,6 +257,29 @@
 
     .info-employee h4 {
         margin-top: 15px;
+    }
+
+    /* Section Testimonials */
+
+    .testimonials-content {
+        /* max-width: 86%; */
+        padding: 45px 0 90px 0;
+    }
+
+    /* .testimonials-content-desc {
+        padding-left: 30px;
+    } */
+
+    .testimonials-text h3 {
+        margin: 45px 0 15px 0;
+    }
+
+    .testimonials-employee-info h4 {
+        margin-top: 15px;
+    }
+
+    .testimonials-employee-info p {
+        line-height: 1.5;
     }
 }
 
@@ -363,6 +411,39 @@
     .info-employee h4 {
         margin-top: 10px;
     }
+
+    /* Section Testimonials */
+
+    .testimonials-content {
+        max-width: 90%;
+        padding: 45px 0 90px 0;
+    }
+
+    .testimonials-content-desc {
+        max-width: 100%;
+        margin-top: 25px;
+        justify-content: space-between;
+    }
+
+    /* .testimonials-text {
+        max-width: 65%;
+    } */
+
+    .testimonials-text h3 {
+        margin: 35px 0 15px 0;
+    }
+
+    .testimonials-employee-info {
+        max-width: 20%;
+    }
+
+    .testimonials-employee-image img {
+        border-width: 2px;
+    }
+
+    .testimonials-employee-info h4 {
+        margin-top: 15px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -422,5 +503,35 @@
 
     .our-team-content {
         padding: 30px 0 45px 0;
+    }
+
+    /* Section Testimonials */
+
+    .testimonials-content {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 35px 0 65px 0;
+    }
+
+    .testimonials-content-desc {
+        margin-top: 0;
+        display: block;
+    }
+
+    .testimonials-text {
+        max-width: 100%;
+    }
+
+    .testimonials-text h3 {
+        margin: 35px 0 15px 0;
+    }
+
+    .testimonials-employee-info {
+        max-width: 40%;
+        margin: 40px auto 0;
+    }
+
+    .testimonials-employee-info p {
+        line-height: 1.8;
     }
 }
